@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade de Contrato</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/mobile.css">
+</head>
+<body>
+    <div id="area">
+        <h1>Area de Contato</h1>
+        <div id="name">
+            <h3>Primeiro Nome: <br> <input type="text" id="first" class="name"></h3>
+            <h3>Ultimo Nome: <br> <input type="text" class="name" id="last"></h3>
+            <div id="res"></div>
+            <div class="email">
+                <h3>Email: <br> <input type="text" id="email" placeholder="username@gmail.com"></h3>
+                <div id="res1"></div>
+
+            </div>
+        </div>
+        <div id="atendimento">
+            <h3>Tipo de Atendimento:</h3>
+            <div id="grid">    
+                    <label class="card">
+                    <div id="rr">
+                        <input type="radio" name="n1" value="0" id="CG" required >
+                        Consulta Geral
+                    </div>
+                    <div id="res2"></div>
+                    </label>
+                
+                <label class="card">
+                    <div id="rr">
+                        <input type="radio" name="n1" value="1" id="SS"  >
+                        Solicitar Suporte
+                    </div>
+                    <div id="res2"></div>
+
+                </label>
+            </div>
+        </div>
+        <div id="msg"> 
+            <h3>Mensagem</h3>
+            <textarea name="Msg" id="msg"></textarea>
+            <div id="res3"></div>
+        </div>
+        <div id="termos">
+            <input type="checkbox" name="mss" id="ch" value="Aceite os Termos de Responsabilidade" required>
+            <label for="msss" id="gg">Aceite os Termos de Responsabilidade</label>
+        </div>
+        <input id="env" type="submit" value="Enviar" onclick="enviar()">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
