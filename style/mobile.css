@@ -2,7 +2,7 @@
 @media screen and (max-width:768px) {
 
     div#area{
-        width: 65%;
+        width: 75%;
         margin: auto;
     }
     
@@ -35,7 +35,7 @@
     }
 
     div#atendimento div#rr{
-        width: 388px;
+        width: 97%;
 
         margin-top: 15px;
     }
