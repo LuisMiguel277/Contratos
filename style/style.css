@@ -85,6 +85,7 @@ div#name input#email:hover{
 div#atendimento div#grid{
     display: grid;
     grid-template-columns: auto auto;
+    grid-template-rows: auto;
 }
 
 
@@ -94,7 +95,7 @@ div#atendimento div#rr{
 
     border: none;
     border-radius: 5px;
-    border: 1px solid  #ccc;
+    border: 1px solid  #b1a4a4;
 
     display: flex;
     justify-content: flex-start;

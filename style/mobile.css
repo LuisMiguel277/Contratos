@@ -2,7 +2,7 @@
 @media screen and (max-width:768px) {
 
     div#area{
-        width: 55%;
+        width: 65%;
         margin: auto;
     }
     
@@ -13,9 +13,16 @@
     }
 
     div#name .name{
-        width: 365px;
+        margin-top: 10px;
+        width: 95%;
     }
+    div#name input#email{
+        width: 95%;
+        height: 5vh;
+        margin-left: 0px;
+        margin-top: 10px;
 
+    }
     div#atendimento div#grid {
         display: flex;
         justify-content: center;
@@ -23,8 +30,12 @@
         flex-direction: column;
     }
 
-    div#atendimento div#grid div#rr{
-        width: 375px;
+    .card{
+        width: 100%;
+    }
+
+    div#atendimento div#rr{
+        width: 388px;
 
         margin-top: 15px;
     }
@@ -34,7 +45,7 @@
     }
 
     input#env{
-        width: 350px;
+        width: 95%;
     }
 
 }
